@@ -9,9 +9,7 @@ var scrape = function (cb) {
         
 
         var articles = [];
-        // console.log("$", $(".cd__content"))
         $(".css-6p6lnl").each(function(i, element){
-            // console.log("zone-b", $(this).children());
             var head = $(this).find('h2').text().trim();
             var sum = $(this).find('p').text().trim();
             console.log("head:", head);
