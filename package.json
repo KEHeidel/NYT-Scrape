@@ -19,8 +19,10 @@
   },
   "homepage": "https://github.com/KEHeidel/NYT-Scrape#readme",
   "dependencies": {
+    "@popperjs/core": "^2.4.2",
     "axios": "^0.19.2",
     "body-parser": "^1.19.0",
+    "bootbox": "^5.4.0",
     "cheerio": "^1.0.0-rc.3",
     "express": "^4.17.1",
     "express-handlebars": "^4.0.4",

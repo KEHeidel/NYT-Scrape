@@ -1,0 +1,26 @@
+#nav {
+    height: 25px;
+}
+
+#home {
+    height: 5px;
+    background-color: blue;
+    border-radius: 8px;
+    padding-top: 2px;
+    margin-top: 20px;
+}
+
+#saved {
+    height: 5px;
+    background-color: blue;
+    border-radius: 8px;
+    padding-top: 2px;
+    margin-top: 20px;
+}
+
+#scrape {
+    height: 5px;
+    border-radius: 8px;
+    padding-top: 2px;
+    margin-top: 20px;
+}
