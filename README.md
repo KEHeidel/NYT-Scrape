@@ -30,6 +30,8 @@ This app will scrape articles from the New York Times and allow users to save ar
 
 The user will click on the scrape new articles button to get articles from the New York Times. Those articles will then appear on the home page. The user then has the option of saving any of those articles. At the top of the page is a button for the saved articles, when clicked this will take the user to a page where all saved articles are. The user will then have the option to add notes to any article they have saved or they can delete the article from the saved list.
 
+![productdemo](public/assets/images/demoimg.PNG)
+
 ---
 
 ## LINKS
