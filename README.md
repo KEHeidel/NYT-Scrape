@@ -32,6 +32,13 @@ The user will click on the scrape new articles button to get articles from the N
 
 ---
 
+## LINKS
+
+- Github repo: https://github.com/KEHeidel/NYT-Scrape
+- Deployed link: https://nytscraper-kh.herokuapp.com/
+
+---
+
 ## AUTHOR
 
 - [Kortnie Heidel](mailto:kortnie.evans@gmail.com)
