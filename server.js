@@ -1,3 +1,4 @@
+// sets up requires
 var express = require("express");
 var expressHandlebars = require("express-handlebars");
 var bodyParser = require("body-parser");
@@ -24,6 +25,7 @@ app.use(bodyParser.urlencoded({
 
 app.use(router);
 
+// sets up mongoDB
 var db = process.env.MONGODB_URI || "mongodb://localhost/mongoHeadlines";
 
 mongoose.connect(db, function(error) {

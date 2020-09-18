@@ -12,10 +12,17 @@ var headlineSchema = new Schema({
         type: String,
         required: true
     },
-    date: String,
+    date: {
+        type: String,
+        required: true
+    },
     saved: {
         type: Boolean,
         default: false
+    },
+    url: {
+        type: String,
+        required: false
     }
 
 });
