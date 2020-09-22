@@ -7,6 +7,14 @@
     font-family: 'Kanit', sans-serif;
 }
 
+.caption h1 {
+    font-size: 50px;
+}
+
+.caption p {
+    font-size: 30px;
+}
+
 #home {
     height: 5px;
     background-color: blue;
