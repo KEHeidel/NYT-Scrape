@@ -8,7 +8,7 @@ module.exports = {
         scrape(function(data) {
             var articles = data;
             for (var i = 0; i < articles.length; i++) {
-                articles.date = makeDate();
+                // articles.date = makeDate();
                 articles[i].saved = false;
             }
 

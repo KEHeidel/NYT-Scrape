@@ -12,8 +12,9 @@ var headlineSchema = new Schema({
         type: String,
         required: true
     },
-    date: {
-        type: String,
+    timestamp: {
+        type: Date,
+        default: Date.now,
         required: true
     },
     saved: {
