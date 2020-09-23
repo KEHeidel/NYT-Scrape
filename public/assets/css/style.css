@@ -1,8 +1,49 @@
 #nav {
-    height: 25px;
+    float: right;
 }
 
-.jumbotron.text-center {
+#nav li{
+    display: inline;
+    padding: 5px;
+}
+
+#nav a:link {
+    color: white;
+}
+
+#nav a:visited {
+    color:white;
+}
+
+#nav a:hover {
+    color: blue;
+}
+
+#nav a:active {
+    color:white;
+}
+
+#home {
+    height: 5px;
+    padding-top: 2px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+#saved {
+    height: 5px;
+    padding-top: 2px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+#scrape {
+    height: 5px;
+    padding-top: 2px;
+    margin-top: 20px;
+}
+
+.jumbotron {
     background: linear-gradient(to bottom right,  rgba(146, 143, 144, 0.9) 30%, rgba(13, 26, 218, 0.9) 100%);
     font-family: 'Kanit', sans-serif;
 }
@@ -15,28 +56,6 @@
     font-size: 30px;
 }
 
-#home {
-    height: 5px;
-    background-color: blue;
-    border-radius: 8px;
-    padding-top: 2px;
-    margin-top: 20px;
-}
-
-#saved {
-    height: 5px;
-    background-color: blue;
-    border-radius: 8px;
-    padding-top: 2px;
-    margin-top: 20px;
-}
-
-#scrape {
-    height: 5px;
-    border-radius: 8px;
-    padding-top: 2px;
-    margin-top: 20px;
-}
 
 .modal-body {
     position: relative;
@@ -52,4 +71,8 @@
     background-color: blue;
     border-radius: 8px;
     padding-top: 2px;
+}
+
+#buttonsave {
+    background-color: rgba(146, 143, 144, 0.9) 30%;
 }
