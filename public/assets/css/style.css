@@ -74,5 +74,14 @@
 }
 
 #buttonsave {
-    background-color: rgba(146, 143, 144, 0.9) 30%;
+    background-color: rgba(13, 26, 218, 0.9);
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin-left: 15px;
+    border-radius: 8px;
 }

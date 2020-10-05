@@ -13,7 +13,7 @@ This app will scrape articles from the New York Times and allow users to save ar
 
 ---
 
-## PREREQUISITS
+## PREREQUISITES
 
 - [popper](https://www.npmjs.com/package/popper) _npm install popper_
 - [axios](https://www.npmjs.com/package/axios) _npm install axios_
