@@ -107,6 +107,15 @@ body {
     flex: 1 0 auto;
 }
 
+.bootbox-body {
+    background-color: white;
+}
+
+.modal-body {
+    font-size: 30px;
+    margin: auto;
+}
+
 .footer {
     background: linear-gradient(to bottom right,  rgba(146, 143, 144, 0.9) 30%, rgba(13, 26, 218, 0.9) 100%);
     font-family: 'Kanit', sans-serif;

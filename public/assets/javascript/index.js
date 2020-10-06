@@ -84,7 +84,11 @@ $(document).ready(function() {
         $.get("/api/fetch")
         .then(function(data) {
             startPage();
-            bootbox.alert(data.message);
+            bootbox.alert({
+                // size: "small",
+                message: data.message,
+                closeButton: false
+            });
         });
     }
 });
