@@ -85,7 +85,7 @@ $(document).ready(function() {
         .then(function(data) {
             startPage();
             bootbox.alert({
-                // size: "small",
+                size: "medium",
                 message: data.message,
                 closeButton: false
             });
