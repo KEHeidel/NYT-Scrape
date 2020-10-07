@@ -140,6 +140,37 @@ body {
 .modal-body {
     font-size: 30px;
     margin: auto;
+    height: 100px;
+    width: 495px;
+}
+
+.modal-content {
+    height: 100%;
+    width: 100%;
+}
+
+.modal-contentNotes {
+    height: 800px;
+    width: 800px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.modal-bodyNotes {
+    height: auto;
+    width: 800px;
+    background-color: white;
+}
+
+.modal-footerNotes {
+    height: 100px;
+    width: 800px;
+    background-color: white;
+}
+
+.bootboxNotes > .modal-dialog {
+    width: 50% !important;
+    height: 80% !important;
 }
 
 .footer {

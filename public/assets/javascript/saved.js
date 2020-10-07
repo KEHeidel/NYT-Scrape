@@ -113,10 +113,13 @@ $(document).ready(function() {
                 "</div>"
             ].join("");
             console.log("modalText: ", modalText)
-            bootbox.dialog({
+            var box = bootbox.dialog({
+                className: 'bootboxNotes',
+                size: "extra-large",
                 message: modalText,
+                inputType: 'textarea',
                 closeButton: true
-            });
+            })
             var noteData = {
                 _id: currentArticle._id,
                 notes: data || []
@@ -152,8 +155,8 @@ $(document).ready(function() {
         });
     }
     
-    $(document).on("click", "#delete", handleArticleDelete);
-    $(document).on("click", "#notes", handleArticleNotes);
+    $(document).on("click", "#buttonDelete", handleArticleDelete);
+    $(document).on("click", "#buttonNotes", handleArticleNotes);
     $(document).on("click", "#save", handleNoteSave);
     $(document).on("click", "#note-delete", handleNoteDelete);
     startPage();
