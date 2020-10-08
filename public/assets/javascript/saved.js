@@ -110,8 +110,8 @@ $(document).ready(function() {
                 "<hr />",
                 "<ul class='list-group note-container'>",
                 "</ul>",
-                "<textarea placeholder='New Note' rows='4' cols='60'></textarea>",
-                "<button id='save' class='btn btn-success save'>Save Note</button>",
+                "<textarea placeholder='New Note' rows='4' cols='35'></textarea>",
+                "<button id='buttonSave' class='btn save'>Save Note</button>",
                 "</div>"
             ].join("");
             console.log("modalText: ", modalText)
@@ -159,7 +159,7 @@ $(document).ready(function() {
     
     $(document).on("click", "#buttonDelete", handleArticleDelete);
     $(document).on("click", "#buttonNotes", handleArticleNotes);
-    $(document).on("click", "#save", handleNoteSave);
+    $(document).on("click", "#buttonSave", handleNoteSave);
     $(document).on("click", "#note-delete", handleNoteDelete);
     startPage();
 });
