@@ -27,6 +27,7 @@ $(document).ready(function() {
             $(["<div class='panel panel-default'>",
             "<div class='panel-heading'>",
             "<h3>",
+            "<a id= 'articleurl' href=", article.url, ">",
             article.headline,
             "<a id='buttonDelete' class='btn delete'>",
             "Delete From Saved",
