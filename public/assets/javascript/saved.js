@@ -36,6 +36,7 @@ $(document).ready(function() {
             "</h3>",
             "</div>",
             "<div class='panel-body'>",
+            "<div id= 'articlesummary' class='panel-body'>",
             article.summary,
             "</div>",
             "</div>"
