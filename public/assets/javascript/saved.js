@@ -42,6 +42,7 @@ $(document).ready(function() {
             "</div>"
         ].join(""));
         panel.data("_id", article._id);
+        panel.data("headline", article.headline);
         return panel;
     }
 
@@ -105,7 +106,7 @@ $(document).ready(function() {
             var modalText = [
                 "<div class='container-fluid text-center'>",
                 "<h4>Notes for Article: ",
-                currentArticle._id,
+                currentArticle.headline,
                 "</h4>",
                 "<hr />",
                 "<ul class='list-group note-container'>",
