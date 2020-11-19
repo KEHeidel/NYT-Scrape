@@ -26,16 +26,26 @@ app.use(bodyParser.urlencoded({
 app.use(router);
 
 // sets up mongoDB
-var db = process.env.MONGODB_URI || "mongodb://localhost/mongoHeadlines";
+// var db = process.env.MONGODB_URI || "mongodb://localhost/mongoHeadlines";
 
-mongoose.connect(db, function(error) {
-    if (error) {
-        console.log(error);
+// mongoose.connect(db, function(error) {
+//     if (error) {
+//         console.log(error);
+//     }
+//     else {
+//         console.log("mongoose connection is successful");
+//     }
+// });
+
+mongoose.connect(
+    process.env.MONGODB_URI || 'mongodb://localhost/mongoHeadlines',
+    {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+      useCreateIndex: true,
+      useFindAndModify: false
     }
-    else {
-        console.log("mongoose connection is successful");
-    }
-});
+  );
 
 app.listen(PORT, function() {
     console.log("Listening on port:" + PORT);
